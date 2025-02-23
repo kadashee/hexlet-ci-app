@@ -1,5 +1,8 @@
 # Example app for CI Hexlet course
 
+[![Node.js CI](https://github.com/kadashee/hexlet-ci-app/actions/workflows/test-lint.yml/badge.svg)](https://github.com/kadashee/hexlet-ci-app/actions/workflows/test-lint.yml)
+
+
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
