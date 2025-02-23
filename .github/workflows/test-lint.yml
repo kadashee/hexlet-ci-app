@@ -1,9 +1,15 @@
-# Пример для проекта на Node.js
+name: Node.js CI
+
+on:
+  push:  # Запускать при push
+  pull_request:  # Или при pull request
+
 jobs:
-  build: # имя взято для примера
+  build:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v3  # Клонирование репозитория
       - run: make setup
       - run: make test
       - run: make lint
