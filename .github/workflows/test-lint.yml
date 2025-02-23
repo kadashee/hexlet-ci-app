@@ -1,0 +1,9 @@
+# Пример для проекта на Node.js
+jobs:
+  build: # имя взято для примера
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: make setup
+      - run: make test
+      - run: make lint
